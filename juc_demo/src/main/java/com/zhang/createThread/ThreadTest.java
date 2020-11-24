@@ -18,6 +18,6 @@ class ThreadDemo extends Thread{
     //run方法是线程的执行体，线程需要执行的操作
     @Override
     public void run() {
-        System.out.println("线程:"+Thread.currentThread().getName()+"执行");
+        System.out.println("我是通过继承Thread类来实现的线程"+Thread.currentThread().getName());
     }
 }
